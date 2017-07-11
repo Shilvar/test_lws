@@ -6,10 +6,10 @@
 	 */
 
 	//Constantes pour la connexion à la base de données
-	define('HOST', 'db689006017.db.1and1.com');			// Hôte de la base de données
-	define('BASENAME', 'db689006017');					// Nom de la base de données
-	define('USER_BDD', 'dbo689006017');					// Login de la base de données
-	define('PASSWORD_BDD', 'A4bPr6@S5h');				// Mot de passe de la base de données
+	define('HOST', 'xxxxx');					// Hôte de la base de données
+	define('BASENAME', 'xxxxxx');					// Nom de la base de données
+	define('USER_BDD', 'xxxxxx');					// Login de la base de données
+	define('PASSWORD_BDD', 'xxxxxx');				// Mot de passe de la base de données
 
 	//Constantes pour l'envoi du mail via SMTP
 	define('FROM', 'b.sebastien.88@gmail.com'); 		// E-mail d'envoi
@@ -22,9 +22,9 @@
 
 	//Constantes pour l'envoi du Tweet
 	define('CONSUMER_KEY','xxxx');
-    define('CONSUMER_SECRET' ,'xxxx');
-    define('ACCESS_TOKEN', 'xxxx');
-    define('ACCESS_TOKEN_SECRET', 'xxxxx');
+        define('CONSUMER_SECRET' ,'xxxx');
+        define('ACCESS_TOKEN', 'xxxx');
+        define('ACCESS_TOKEN_SECRET', 'xxxxx');
 
 	//Déclaration des constantes générales
 	define('RACINE', './');							
