@@ -1,0 +1,114 @@
+/************************ GENERAL ******************************/
+
+body { 
+    background-color:#DDD;
+    padding-top : 70px;
+}
+
+.text-white {
+	color: #FFF !important;
+}
+
+form .requis{
+    color : #a94442;
+    vertical-align: top;
+    margin-left: 5px;
+    font-size: 12pt;
+}
+
+.dn{
+    display: none;
+}
+
+/************************ JQUERY UI ******************************/
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    width: 300px;
+    background-color: #fff;
+    margin:0; 
+	padding: 0;
+}
+
+.ui-autocomplete li{
+	list-style: none;
+	padding: 2.5px 5px !important;
+	margin:0 !important;
+	cursor:pointer;
+	transition: all 400ms;
+}
+
+.ui-autocomplete li:hover{
+	background-color : #269ABC;
+	color :#fff;
+}
+
+.ui-helper-hidden-accessible{
+	display: none;
+}
+
+/************************ TABLE ******************************/
+
+table{
+    border:1px solid #5bc0de;
+    color: #000000;
+    border-spacing : 0 !important;
+    
+}
+
+table td{
+    padding:3px 10px;
+}
+
+table th{
+    padding:5px 10px;
+}
+
+span.champs_ordre{
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+span.champs_ordre_actif,
+span.champs_ordre:hover{
+    color: #1b7acb;
+}
+
+table th, table tr.th td{
+   background-color:#5bc0de !important;  
+}
+
+table td{
+    background-color:#ffffff;
+    border-top: 1px solid #5bc0de;
+}
+
+table th, table th a, table tr.th td{
+    color:#FFFFFF;
+}
+
+table tr.th:hover td{
+    color:#FFFFFF;
+}
+
+table tr td span.glyphicon{
+    cursor:pointer;
+    transition: all 400ms;
+}
+
+table tr td span.glyphicon-remove:hover{
+    color: red;
+}
+
+table tr td span.glyphicon-pencil:hover,
+table tr td span.glyphicon-search:hover{
+    color: #1b7acb;
+}
+
+ul.pagination li.page_active a{
+    background-color: #1b7acb !important;
+    color: #fff !important;
+}
